@@ -16,6 +16,7 @@ Key Features
 
 ## 🏗️ Project Structure
 
+```
 src/
 ├── pages/                          # Main application pages
 │   ├── Index.tsx                   # Landing page with transaction overview
@@ -40,6 +41,7 @@ src/
 ├── styles/
 │   ├── index.css                   # Design tokens + Tailwind setup
 │   └── App.css                     # Component-specific styles
+```
 
 ## 📊 Data Structure
 
