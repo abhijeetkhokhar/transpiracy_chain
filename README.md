@@ -1,98 +1,124 @@
-# Transpiracy Chain
+# TransparencyChain - Government Funding Transparency Platform
 
-A modern web application built with React, TypeScript, and Vite, featuring a beautiful UI powered by shadcn/ui and Tailwind CSS.
+A blockchain-based platform for tracking and verifying government funding allocations across Indian states and union territories with complete transparency and accountability.
 
-## 🚀 Features
 
-- ⚡ Blazing fast development with Vite
-- 🎨 Beautiful UI components with shadcn/ui
-- 🎯 Type-safe with TypeScript
-- 🎨 Styled with Tailwind CSS
-- 🛣️ Client-side routing with React Router
-- 🔄 State management with React Query
-- 📱 Responsive design
+## 🎯 Overview
+
+TransparencyChain leverages blockchain technology to create an immutable, transparent record of government funding transactions. The platform enables citizens and stakeholders to monitor fund allocation and utilization across all government departments in real-time.
+
+Key Features
+
+- Blockchain Verification: Every transaction is verified and immutable on the Ethereum blockchain
+- Real-time Tracking: Monitor fund allocation and - utilization across all government departments
+- Public Access: Citizen-friendly interface providing easy access to government funding information
+- Department-wise Tracking: View funding details segregated by departments and states
+- Complete Transparency: 100% blockchain-verified transactions with full accountability
+
+
+## 🏗️ Project Structure
+
+src/
+├── pages/               # Main application pages
+│   ├── Index.tsx       # Landing page with transaction overview
+│   ├── Login.tsx       # Web3 wallet connection
+│   ├── Dashboard.tsx   # State and UT selection dashboard
+│   ├── StateDetail.tsx # State-level department overview
+│   └── DepartmentDetail.tsx # Department-specific funding details
+├── components/
+│   └── ui/             # shadcn/ui components (cards, tables, buttons, etc.)
+├── data/
+│   └── indiaData.ts    # States, departments, and sample funding data
+├── hooks/
+│   ├── use-toast.ts    # Toast notification hook
+│   └── use-mobile.tsx  # Mobile detection hook
+├── lib/
+│   └── utils.ts        # Utility functions (className merging)
+└── styles/
+    ├── index.css       # Design system tokens and Tailwind setup
+    └── App.css         # Component-specific styles
+
+## 📊 Data Structure
+
+indiaData.ts Contains:
+
+- statesAndUTs: 28 States + 8 Union Territories with IDs and types
+- departments: 6+ government departments with icons and descriptions
+-- Transport Department 🚌
+-- Health Department 🏥
+-- Education Department 🎓
+-- Rural Development 🌾
+-- Police Department 👮
+-- Public Works Department 🏗️
+- sampleFundings: Comprehensive funding transaction data with:
+-- Ethereum transaction hashes
+-- Receiver/Sender ETH addresses
+-- Amounts in both INR and ETH
+-- Block numbers and gas details
+-- Transaction status tracking
 
 ## 🛠️ Tech Stack
 
-- **Frontend Framework**: React 18
-- **Language**: TypeScript
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS + shadcn/ui
-- **Form Handling**: React Hook Form
-- **State Management**: React Query
-- **UI Components**: Radix UI Primitives
-- **Icons**: Lucide React
-- **Date Picking**: react-day-picker
-- **Notifications**: Sonner
+- Framework: React with TypeScript
+- Build Tool: Vite
+- Styling: Tailwind CSS
+- UI Components: shadcn/ui
+- Routing: React Router v6
+- State Management: TanStack Query
+- Icons: Lucide React
+- Toast Notifications: Custom hook with Radix UI & Sonner
+- Form Validation: React Hook Form
 
 ## 🚀 Getting Started
 
-### Prerequisites
+Prerequisites
+- Node.js 16+ and npm
 
-- Node.js (v18 or later recommended)
-- npm (v9 or later) or yarn
+Installation
 
-### Installation
+# Clone the repository
+git clone [<YOUR_GIT_URL>](https://github.com/abhijeetkhokhar/transpiracy_chain.git)
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/transpiracy-chain.git
-   cd transpiracy-chain
-   ```
+# Navigate to project directory
+cd transpiracy_chain
 
-2. Install dependencies:
-   ```sh
-   npm install
-   # or
-   yarn
-   ```
+# Install dependencies
+npm install
 
-3. Start the development server:
-   ```sh
-   npm run dev
-   # or
-   yarn dev
-   ```
+# Start development server
+npm run dev
 
-4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+# Live Demo
+The application will be available at https://transpiracy-chain.vercel.app/
 
-### Available Scripts
+## 🔐 Blockchain Integration
 
-- `npm run dev` - Start the development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview the production build locally
-- `npm run lint` - Run ESLint
+The platform displays Ethereum transaction details:
 
-## 📁 Project Structure
+- Transaction hashes for verification
+- Sender and receiver Ethereum addresses
+- Gas usage and pricing information
+- Block numbers for traceability
+- ETH amount conversions
 
-```
-├── public/          # Static files
-├── src/
-│   ├── components/  # Reusable UI components
-│   ├── data/        # Static data
-│   ├── hooks/       # Custom React hooks
-│   ├── lib/         # Utility functions
-│   └── ...          # Other source files
-├── .eslintrc.js     # ESLint configuration
-├── index.html       # Main HTML file
-├── package.json     # Project dependencies and scripts
-├── tailwind.config.ts # Tailwind CSS configuration
-└── tsconfig.json    # TypeScript configuration
-```
+## 🎯 Features Roadmap
+
+- Real Ethereum blockchain integration
+- Web3 wallet connection (MetaMask, WalletConnect)
+- Live transaction data from blockchain
+- Advanced filtering and search
+- Export transaction reports
+- Mobile app version
+- Multi-language support
+
+## 📄 License
+
+This project is open source and available under the MIT License.
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## 📞 Support
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/)
-- [Radix UI](https://www.radix-ui.com/)
-# transpiracy
+For support and questions, please open an issue in the repository.
