@@ -77,7 +77,7 @@ Prerequisites
 Installation
 
 # Clone the repository
-git clone [<YOUR_GIT_URL>](https://github.com/abhijeetkhokhar/transpiracy_chain.git)
+git clone (https://github.com/abhijeetkhokhar/transpiracy_chain.git)
 
 # Navigate to project directory
 cd transpiracy_chain
