@@ -17,24 +17,29 @@ Key Features
 ## 🏗️ Project Structure
 
 src/
-├── pages/ # Main application pages
-│ ├── Index.tsx # Landing page with transaction overview
-│ ├── Login.tsx # Web3 wallet connection
-│ ├── Dashboard.tsx # State and UT selection dashboard
-│ ├── StateDetail.tsx # State-level department overview
-│ └── DepartmentDetail.tsx # Department-specific funding details
+├── pages/                          # Main application pages
+│   ├── Index.tsx                   # Landing page with transaction overview
+│   ├── Login.tsx                   # Web3 wallet connection
+│   ├── Dashboard.tsx               # State and UT selection dashboard
+│   ├── StateDetail.tsx             # State-level department overview
+│   └── DepartmentDetail.tsx        # Department-specific funding details
+│
 ├── components/
-│ └── ui/ # shadcn/ui components (cards, tables, buttons, etc.)
+│   └── ui/                         # shadcn/ui components (cards, tables, buttons, etc.)
+│
 ├── data/
-│ └── indiaData.ts # States, departments, and sample funding data
+│   └── indiaData.ts                # States, departments, sample funding data
+│
 ├── hooks/
-│ ├── use-toast.ts # Toast notification hook
-│ └── use-mobile.tsx # Mobile detection hook
+│   ├── use-toast.ts                # Toast notification hook
+│   └── use-mobile.tsx              # Mobile detection hook
+│
 ├── lib/
-│ └── utils.ts # Utility functions (className merging)
-└── styles/
-├── index.css # Design system tokens and Tailwind setup
-└── App.css # Component-specific styles
+│   └── utils.ts                    # Utility functions (e.g., className merging)
+│
+├── styles/
+│   ├── index.css                   # Design tokens + Tailwind setup
+│   └── App.css                     # Component-specific styles
 
 ## 📊 Data Structure
 
@@ -42,18 +47,18 @@ indiaData.ts Contains:
 
 - statesAndUTs: 28 States + 8 Union Territories with IDs and types
 - departments: 6+ government departments with icons and descriptions
-Transport Department 🚌
-Health Department 🏥
-Education Department 🎓
-Rural Development 🌾
-Police Department 👮
-Public Works Department 🏗️
+1. Transport Department 🚌
+2. Health Department 🏥
+3. Education Department 🎓
+4. Rural Development 🌾
+5. Police Department 👮
+6. Public Works Department 🏗️
 - sampleFundings: Comprehensive funding transaction data with:
-Ethereum transaction hashes
-Receiver/Sender ETH addresses
-Amounts in both INR and ETH
-Block numbers and gas details
-Transaction status tracking
+1. Ethereum transaction hashes
+2. Receiver/Sender ETH addresses
+3. Amounts in both INR and ETH
+4. Block numbers and gas details
+5. Transaction status tracking
 
 ## 🛠️ Tech Stack
 
@@ -72,8 +77,8 @@ Transaction status tracking
 Prerequisites
 - Node.js 16+ and npm
 
-## Installation
 
+Installation 
 ## Clone the repository
 
 git clone (https://github.com/abhijeetkhokhar/transpiracy_chain.git)
