@@ -79,15 +79,27 @@ indiaData.ts Contains:
 Prerequisites
 - Node.js 16+ and npm
 
-## Installation 
 
-- git clone [transpiracy_chain](https://github.com/abhijeetkhokhar/transpiracy_chain.git)
-- cd transpiracy_chain
-- npm install
-- npm run dev
+Installation 
+## Clone the repository
 
-### Live Demo
-- The application will be available at https://transpiracy-chain.vercel.app/
+git clone (https://github.com/abhijeetkhokhar/transpiracy_chain.git)
+
+## Navigate to project directory
+
+cd transpiracy_chain
+
+## Install dependencies
+
+npm install
+
+## Start development server
+
+npm run dev
+
+## Live Demo
+
+The application will be available at https://transpiracy-chain.vercel.app/
 
 ## 🔐 Blockchain Integration
 
