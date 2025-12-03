@@ -17,24 +17,24 @@ Key Features
 ## 🏗️ Project Structure
 
 src/
-├── pages/               # Main application pages
-│   ├── Index.tsx       # Landing page with transaction overview
-│   ├── Login.tsx       # Web3 wallet connection
-│   ├── Dashboard.tsx   # State and UT selection dashboard
-│   ├── StateDetail.tsx # State-level department overview
-│   └── DepartmentDetail.tsx # Department-specific funding details
+├── pages/ # Main application pages
+│ ├── Index.tsx # Landing page with transaction overview
+│ ├── Login.tsx # Web3 wallet connection
+│ ├── Dashboard.tsx # State and UT selection dashboard
+│ ├── StateDetail.tsx # State-level department overview
+│ └── DepartmentDetail.tsx # Department-specific funding details
 ├── components/
-│   └── ui/             # shadcn/ui components (cards, tables, buttons, etc.)
+│ └── ui/ # shadcn/ui components (cards, tables, buttons, etc.)
 ├── data/
-│   └── indiaData.ts    # States, departments, and sample funding data
+│ └── indiaData.ts # States, departments, and sample funding data
 ├── hooks/
-│   ├── use-toast.ts    # Toast notification hook
-│   └── use-mobile.tsx  # Mobile detection hook
+│ ├── use-toast.ts # Toast notification hook
+│ └── use-mobile.tsx # Mobile detection hook
 ├── lib/
-│   └── utils.ts        # Utility functions (className merging)
+│ └── utils.ts # Utility functions (className merging)
 └── styles/
-    ├── index.css       # Design system tokens and Tailwind setup
-    └── App.css         # Component-specific styles
+├── index.css # Design system tokens and Tailwind setup
+└── App.css # Component-specific styles
 
 ## 📊 Data Structure
 
