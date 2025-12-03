@@ -2,7 +2,6 @@
 
 A blockchain-based platform for tracking and verifying government funding allocations across Indian states and union territories with complete transparency and accountability.
 
-
 ## 🎯 Overview
 
 TransparencyChain leverages blockchain technology to create an immutable, transparent record of government funding transactions. The platform enables citizens and stakeholders to monitor fund allocation and utilization across all government departments in real-time.
@@ -14,7 +13,6 @@ Key Features
 - Public Access: Citizen-friendly interface providing easy access to government funding information
 - Department-wise Tracking: View funding details segregated by departments and states
 - Complete Transparency: 100% blockchain-verified transactions with full accountability
-
 
 ## 🏗️ Project Structure
 
@@ -44,18 +42,18 @@ indiaData.ts Contains:
 
 - statesAndUTs: 28 States + 8 Union Territories with IDs and types
 - departments: 6+ government departments with icons and descriptions
--- Transport Department 🚌
--- Health Department 🏥
--- Education Department 🎓
--- Rural Development 🌾
--- Police Department 👮
--- Public Works Department 🏗️
+  -- Transport Department 🚌
+  -- Health Department 🏥
+  -- Education Department 🎓
+  -- Rural Development 🌾
+  -- Police Department 👮
+  -- Public Works Department 🏗️
 - sampleFundings: Comprehensive funding transaction data with:
--- Ethereum transaction hashes
--- Receiver/Sender ETH addresses
--- Amounts in both INR and ETH
--- Block numbers and gas details
--- Transaction status tracking
+  -- Ethereum transaction hashes
+  -- Receiver/Sender ETH addresses
+  -- Amounts in both INR and ETH
+  -- Block numbers and gas details
+  -- Transaction status tracking
 
 ## 🛠️ Tech Stack
 
@@ -72,23 +70,29 @@ indiaData.ts Contains:
 ## 🚀 Getting Started
 
 Prerequisites
+
 - Node.js 16+ and npm
 
 Installation
 
 # Clone the repository
+
 git clone (https://github.com/abhijeetkhokhar/transpiracy_chain.git)
 
 # Navigate to project directory
+
 cd transpiracy_chain
 
 # Install dependencies
+
 npm install
 
 # Start development server
+
 npm run dev
 
 # Live Demo
+
 The application will be available at https://transpiracy-chain.vercel.app/
 
 ## 🔐 Blockchain Integration
